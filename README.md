@@ -12,7 +12,9 @@ REST API’s for accessing the locations of BLE and WiFi devices using Opencv py
     - `pip install -r requirements.txt`
 - Start the server
     -  `python3 server.py`
-
+- Running tests
+    - `python3 run_tests.py`
+    
 # List of supported apis
 - `Get` -> /api/devices
     -  `curl --location --request GET 'http://localhost:8000/api/devices/'`
