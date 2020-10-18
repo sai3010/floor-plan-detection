@@ -26,3 +26,5 @@ REST API’s for accessing the locations of BLE and WiFi devices using Opencv py
     - `curl --location --request GET 'http://localhost:8000/api/devices/wifi/1'`
 - `Get` -> /api/devices/ble/dev_id
     - `curl --location --request GET 'http://localhost:8000/api/devices/ble/1'`
+
+- Note : Supported device IDs : 0-5 for WiFi & 0-4 for BLE
